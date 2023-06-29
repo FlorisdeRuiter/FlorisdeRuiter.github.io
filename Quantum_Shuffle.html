@@ -31,7 +31,7 @@
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="index.html#one">Projects</a></li>
-							<li><a href="generic.html">About Me</a></li>
+							<li><a href="index.html#two">About Me</a></li>
 						</ul>
 					</nav>
 
@@ -46,7 +46,12 @@
 								<h1>Quantum Shuffle</h1>
 							</header>
 							<div class="content">
-								<p>Quantum Shuffle is a student project developed within a tight 8-week timeframe. The primary opbjective of this project was to deliver a polished gaming experience.</p>
+								<p>
+									Quantum shuffle is a first person puzzler game where the goal is to escape a mysterious laboratory.
+									To do this you'll have to access a control panel where you'll find a grid with rooms on it.
+									These rooms on the grid correspond directly to the rooms you'll walk through while trying to escape.
+									Link up the doors to connect rooms to each other and line them up so they create a path to the exit.
+								</p>
 							</div>
 						</div>
 					</section>
@@ -58,20 +63,19 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>My parts in the project</h2>
+										<h2>Project description</h2>
 									</header>
-									<ul>
-										<li>First Person Controller</li>
-										<li>Event System Manager</li>
-										<li>Dialogue System</li>
-									</ul>
+									<p>For this 8-week school project we had to make a first person puzzle game.
+										The first two weeks were about pre-production, in this phase we had to come up with a main mechanic, present our ideas, design levels around this mechanic, and build a proof of concept.
+										After that we started working on production for the next 6 weeks were the primary focus was on creating a polished game.
+									</p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
+									<a href="QS_First-Person-Controller.html" class="image">
 										<img src="gifs/First Person Controller.gif" alt="" data-position="center center" />
 									</a>
 									<div class="content">
@@ -79,7 +83,10 @@
 											<header class="major">
 												<h3>First Person Controller</h3>
 											</header>
-											<p>A first person controller based on unity's character controller.</p>
+											<p>One of the requirements for this project was to make it in first person, so this was the first thing I made.
+												I used both unity's new input system and the character controller to make this. 
+												The character controller is used to move the player although the move & look direction are calculated in my script.
+											</p>
 											<ul class="actions">
 												<li><a href="QS_First-Person-Controller.html" class="button">Learn more</a></li>
 											</ul>
@@ -87,7 +94,7 @@
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
+									<a href="QS_Event-System.html" class="image">
 										<img src="gifs/Event System.gif" alt="" data-position="top center" />
 									</a>
 									<div class="content">
@@ -95,15 +102,20 @@
 											<header class="major">
 												<h3>Event System</h3>
 											</header>
-											<p>A system that makes easier to add methods to events and invoke them.</p>
+											<p>During development we noticed that a lot of interactions needed events to run or to communicate with a different behaviour.
+												So I made this system to make it easier to quickly add new events to gameobjects.
+												It works by having an event listener which checks the event it needs to play and link that with a key.
+												This event listener automatically adds itself to the dictionary in the event manager.
+												Finally, there is an event invoker which in our case was most often a collider.
+											</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="QS_Event-System.html" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
+									<a href="QS_Dialogue-System.html" class="image">
 										<img src="gifs/Dialogue System.gif" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
@@ -111,9 +123,13 @@
 											<header class="major">
 												<h3>Dialogue Player</h3>
 											</header>
-											<p>A system made to make it easier for artists to add dialogue to the game and customize the font</p>
+											<p>
+												At the start of this project we planned to add a story to the game so I made a dialogue player.
+												The artist who was working on the story wanted a way to more easily implement lines of dialouge, change font settings and add highlighted text.
+												I made this using scriptableobjects that hold dialogue data which is added to a dialogue player.
+											</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="QS_Dialogue-System.html" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
