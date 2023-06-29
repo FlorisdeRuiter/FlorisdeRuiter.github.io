@@ -2218,6 +2218,19 @@ input, select, textarea {
 
 			}
 
+		.image.fullsize {
+			border: 11px solid green;
+			z-index: 999;
+			cursor: zoom-out;
+			display: block;
+			width: 400px;
+			max-width: 400px;
+			height: 550px;
+			position: fixed;
+			left: 100px;
+			top: 30px;
+		}
+
 /* List */
 
 	ol {
@@ -3967,6 +3980,30 @@ input, select, textarea {
 		.trailer-overlay {
 			width: 100%;
 			height: 100%;
-			background-color: black;
+			background-color: rgb(0, 0, 0);
 			opacity: 0.5f;
 		}
+
+		/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+  }
+  
+  #myBtn:hover {
+	background: #ddd;
+	color: black;
+  }
