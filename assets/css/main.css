@@ -3971,6 +3971,14 @@ input, select, textarea {
 			border-radius: 5px;
 		}
 
+		.project-box {
+			font-family: inherit;
+			font-weight: bold;
+			padding:1px 5px 1px 5px;
+			background-color: rgb(0, 0, 0);
+			border-radius: 5px;
+		}
+
 		.trailer-player {
 			z-index: -100;
 			width: 100%;
