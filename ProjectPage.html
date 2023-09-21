@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Circuit Climber</title>
+		<title>Quantum Shuffle</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -38,81 +38,100 @@
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
-								<img src="images/CC_Banner.jpg" alt="" />
+								<img src="images/" alt="" />
 							</span>
 							<header class="major">
-								<h1>Circuit Climber</h1>
+								<h1>Project Name</h1>
 							</header>
 							<div class="content">
 								<p>
-									Circuit Climber is a singeplayer platformer where you play as a spiderbot. <br>
-									Parkour through a overheating PC and enter the ethernet port to escape to the world wide web. 
+									Project Description
 								</p>
 							</div>
 						</div>
 					</section>
-
+					<section id="three">
+						<div class="inner">
+							<header class="major">
+								<h2>Check out our game</h2>
+							</header>
+							<ul class="actions">
+								<li><a href="https://zjustan.itch.io/quantum-shuffle" class="button next">Itch.io</a></li>
+							</ul>
+						</div>
+					</section>					
 				<!-- Main -->
 					<div id="main">
+
 						<!-- Two -->
-							<section id="two" class="spotlights">
+							<section id="one" class="spotlights">
 								<section>
-									<a class="image">
-										<video autoplay muted loop src="videos/Character_Controller.mp4" alt="" data-position="center center" height="550" width="550"/>
-									</a>
 									<div class="content">
 										<div class="inner">
 											<header class="major">
-												<h3>Platformer Controller</h3>
+												<h3>Event System</h3>
 											</header>
-											<p>For this character controller I wanted to make the player feel like they had a lot of control over the character. <br>
-												I did this by adding things like variable jump height, coyote time and jump buffering.
+											<p>During development we noticed that a lot of interactions needed events to run or to communicate with a different behaviour.
+												So I made this system to make it easier to quickly add new events to gameobjects.
+												It works by having an event listener which checks the event it needs to play and link that with a key.
+												This event listener automatically adds itself to the dictionary in the event manager.
+												Finally, there is an event invoker which in our case was most often a collider.
 											</p>
+											
 											<ul class="actions">
-												<li><a href="https://gist.github.com/FlorisdeRuiter/f4fe9754e1b232475885244f9a851d6d" class="button">Learn more</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<image src="images/Highscore.jpg" alt="" data-position="center center"/>
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Highscore Tracker</h3>
-											</header>
-											<p>While playtesting I got some feedback about adding a highscore to keep track of your best time.<br>
-												This ended up being a great addition since playtesters really liked speedrunning the game.
-											</p>
-											<ul class="actions">
-												<li><a href="https://gist.github.com/FlorisdeRuiter/c411017c5055446b9d94fa02aef09306" class="button">Learn more</a></li>
+												<li><a href="https://gist.github.com/FlorisdeRuiter/c5d1351d93ac253ffe2440900cb5a441" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 							</section>
-								<section id="one">
-									<div class="inner">
-										<header class="major">
-											<h2>Project description</h2>
-										</header>
-										<p>For this project we had to design and develop a full game on our own.<br>
-											It was also a freelance simulation where we were the producer and our teachers acted as clients.<br>
-											Finally we set up a design document and contract which had to be signed by our teachers. 
-										</p>
+							<!-- Two -->
+							<section id="one" class="spotlights">
+								<section>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Event System</h3>
+											</header>
+											<p>During development we noticed that a lot of interactions needed events to run or to communicate with a different behaviour.
+												So I made this system to make it easier to quickly add new events to gameobjects.
+												It works by having an event listener which checks the event it needs to play and link that with a key.
+												This event listener automatically adds itself to the dictionary in the event manager.
+												Finally, there is an event invoker which in our case was most often a collider.
+											</p>
+											
+											<ul class="actions">
+												<li><a href="https://gist.github.com/FlorisdeRuiter/c5d1351d93ac253ffe2440900cb5a441" class="button">Learn more</a></li>
+											</ul>
+										</div>
 									</div>
 								</section>
+							</section>
+							<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Project description</h2>
+									</header>
+									<p>For this 8-week school project we had to make a first person puzzle game.
+										<p>The first two weeks were about pre-production, in this phase we had to come up with a main mechanic, present our ideas, design levels around this mechanic, and build a proof of concept.</p>
+										After that we started working on production for the next 6 weeks were the primary focus was on creating a polished game.
+									</p>
+								</div>
+							</section>
 					</div>
 
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
 							<ul class="icons">
+								<li><a href="https://twitter.com/Mika5140" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="https://github.com/FlorisdeRuiter" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								<li><a href="https://www.linkedin.com/in/floris-de-ruiter-0bba89259/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 								<li><a href="mailto: mika.games5140@gmail.com" class="icon solid alt fa-envelope"><span class="label">E-Mail</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
