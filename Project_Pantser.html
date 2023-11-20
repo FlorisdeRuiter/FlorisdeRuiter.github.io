@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Floris de Ruiter</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Floris de Ruiter</strong></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html#one">Projects</a></li>
+							<li><a href="index.html#two">About Me</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<center>
+									<header class="major">
+										<h1>Pantser (In Development)</h1>
+									</header>
+									</center>
+									<center>
+										<image src="images/Pantser_banner.jpg"/>
+									</center>
+									<div class="content">
+										<p>
+											Panster is a 2D action rogue-like bullet hell game inspired by games like Vampire Survivors and Magic: Survival.
+											The game is currently in early development, this page will be updated when progress is made.
+										</p>
+									</div>
+								</div>
+							</section>
+						<!-- Two -->
+						<section id="two">
+							<div class="inner">
+								<header class="major">
+									<h1>My Contributions:</h1>
+								</header>
+								<header class="major">
+									<h2>Upgrade System:</h2>
+								</header>
+								<center>
+								<a class="image">
+									<div class="row">
+										<div class="column">
+											<video autoplay muted loop src="videos/Upgrade_System.mp4" height="" width="550"/>
+										</div>
+										<div class="column">
+											<image src="images/Card_Details.jpg" height="" width="250"/>
+										</div>
+										<div class="column">
+											<image src="images/Card_Upgrade.jpg" height="" width="575"/>
+										</div>
+									</div>
+								</a>
+								</center>
+								<div class="content">
+									<p>
+										When the player levels up they will be able to chose between a new ability or upgrade one they already had.
+										To do this I wanted to let the player choose between 3 or more cards, which required a couple things.
+										A way to generate the cards from scriptableobjects and something that keeps track of which abilites are active and what level they are.
+										<a href="https://gist.github.com/FlorisdeRuiter/a40e1ad325206ffdc40014603a2ebfe0">Learn more.</a>
+									</p>
+								</div>
+								<header class="major">
+									<h2>Enemy Spawner:</h2>
+								</header>
+								<center>
+								<a class="image">
+									<div class="row">
+										<div class="column">
+											<video autoplay muted loop src="videos/Enemy_Spawner.mp4" height="" width="450"/>
+										</div>
+										<div class="column">
+											<image src="images/Spawn_Enemy.jpg" height="" width="400"/>
+										</div>
+										<div class="column">
+											<video autoplay muted loop src="videos/Pantser_enemies.mp4" height="" width="450"/>
+										</div>
+									</div>
+								</a>
+								</center>
+								<div class="content">
+									<p>
+										I had already created a way to quickly make new types of enemies but I needed a way to spawn them in.
+										Specifically in a way where the game would get progressivly harder. To do this I made a function to decrease the spawn interval time
+										and start spawning stronger types of enemies the longer the game goes on.
+										<a href="https://gist.github.com/FlorisdeRuiter/9852aff0df78635182512bda2d5b6581">Learn more.</a>
+									</p>
+								</div>
+								<header class="major">
+									<h2>Object Pooling:</h2>
+								</header>
+								<center>
+								<a class="image">
+									<div class="row">
+										<div class="column">
+											<video autoplay muted loop src="videos/Pantser_objectpooling.mp4" height="" width="550"/>
+										</div>
+										<div class="column">
+											<image src="images/Get_Pooled_Object.jpg" height="" width="650"/>
+										</div>
+									</div>
+								</a>
+								</center>
+								<div class="content">
+									<p>
+										One of the best ways to optimize bullet hell games is by using object pooling. 
+										I used it for both the enemy spawning and the projectiles the player will shoot.
+										<a href="https://gist.github.com/FlorisdeRuiter/6fa4821501a4bc84acfdadaf4a1c66e7">Learn more.</a>
+									</p>
+								</div>
+							</div>
+						</section>
+						<section id="two">
+							<div class="inner">
+								<header class="major">
+									<h1>Project Description:</h1>
+								</header>
+								<div class="content">
+									<p>
+										Pantser is a project I started to see what I would/could make if there were no boundaries and to see how much I'm capable of as a developer.
+										I specifically chose the bullet hell genre because those games require a lot of optimization and that's something I haven't had to do 
+										for other project but I feel like is a necessary skill to have as a game developer.
+										<br>After a long break from this project, I started working on it again together with an extra developer and 3 artists.
+										It's currently still in development but we're expecting to finish it before January.
+										</br> 
+									</p>
+								</div>
+							</div>
+						</section>
+					</div>
+
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="https://github.com/FlorisdeRuiter" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.linkedin.com/in/floris-de-ruiter-0bba89259/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto: floris.deruiter@protonmail.com" class="icon solid alt fa-envelope"><span class="label">E-Mail</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>Developers: <a href="https://florisderuiter.github.io/index.html">Floris de Ruiter</a>, Frederic van der Kroon</a></li>
+							<li>Artists: Aurora van Broekhuijze, Jamie Nooten, Sem Quint</a></li>
+						</ul>
+					</div>
+				</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
